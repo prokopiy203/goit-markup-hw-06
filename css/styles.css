@@ -708,6 +708,7 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio-list-item {
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
@@ -776,7 +777,8 @@ img {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+
   row-gap: 72px;
 }
 
@@ -917,10 +919,11 @@ img {
   .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 72px;
+    padding-left: 108px;
+    padding-right: 164px;
   }
 
   .footer-dscr {
@@ -962,6 +965,8 @@ img {
   .footer-container {
     display: flex;
     align-items: baseline;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .subscribe-list {
