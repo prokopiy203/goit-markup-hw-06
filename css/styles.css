@@ -315,7 +315,6 @@ img {
   align-items: flex-start;
   flex-direction: row;
   gap: 40px;
-  flex-basis: calc((100% - 40px) / 4);
 }
 
 /* ========== Modal-menu ============= */
@@ -491,10 +490,6 @@ img {
   row-gap: 72px;
 }
 
-.content-list-li {
-  flex-basis: calc((100% - 120px) / 1);
-  min-width: 288px;
-}
 .container-icon {
   display: none;
 }
@@ -514,8 +509,7 @@ img {
   }
 
   .content-list-li {
-    flex-basis: calc((100% - 120px) / 2);
-    min-width: 356px;
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
@@ -550,7 +544,6 @@ img {
 
   .content-list-li {
     flex-basis: calc((100% - 72px) / 4);
-    min-width: 264px;
   }
 
   .container-icon {
@@ -1074,7 +1067,7 @@ img {
   transform: translate(-50%, -50%);
   border-radius: 4px;
   min-width: 288px;
-  height: 623px;
+  max-height: 623px;
   max-height: 99%;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
